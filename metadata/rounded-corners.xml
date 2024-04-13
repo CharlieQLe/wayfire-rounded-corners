@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="rounded-corners">
+		<_short>Rounded Corners</_short>
+		<_long>A plugin to add rounded corners to windows.</_long>
+		<category>Desktop</category>
+		<option name="radius" type="int">
+			<_short>Radius</_short>
+			<_long>Set the corner radius of the windows.</_long>
+			<default>12</default>
+			<min>0</min>
+		</option>
+		<option name="border_size" type="int">
+			<_short>Border size</_short>
+			<_long>Set the border size of the windows.</_long>
+			<default>2</default>
+			<min>0</min>
+		</option>
+		<option name="border_color" type="color">
+			<_short>Border color</_short>
+			<_long>Sets the border color.</_long>
+			<default>0.0 0.0 0.0 1.0</default>
+		</option>
+		<option name="shadow_softness" type="int">
+			<_short>Shadow softness</_short>
+			<_long>Set the softness of the windows' shadows.</_long>
+			<default>12</default>
+			<min>0</min>
+		</option>
+		<option name="shadow_margin" type="int">
+			<_short>Shadow margin</_short>
+			<_long>Set the margin of the windows' shadows.</_long>
+			<default>12</default>
+			<min>0</min>
+		</option>
+		<option name="shadow_color" type="color">
+			<_short>Shadow color</_short>
+			<_long>Sets the shadow color.</_long>
+			<default>0.0 0.0 0.0 1.0</default>
+		</option>
+	</plugin>
+</wayfire>
